@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:omgandroid="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_share"
+        android:title="Share"
+        omgandroid:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        omgandroid:showAsAction="ifRoom"/>
+</menu>
+<!-- From: file:/C:/Users/CK/AndroidStudioProjects/OMGAndroid/app/src/main/res/menu/menu_main.xml -->
